@@ -3,7 +3,7 @@ let com = ["rock","paper","scissor"];
 
 let comChoice = com[Math.floor(Math.random() * com.length )];
 
-
+hum = hum.toLowerCase();
 if ( hum !== "rock" && hum !== "paper" && hum !== "scissor" ){
     alert("You entered a wrong word, Please re-enter the only one ot this choices 'rock' 'paper' or 'scissor");
 }
